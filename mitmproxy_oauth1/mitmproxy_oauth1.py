@@ -13,6 +13,8 @@ import urllib3
 mitmproxy_oauth1.py
 Tested with Mitmproxy v6.0.2 using Python 3.8.2 / OpenSSL 1.1.1i (8 Dec 2020) on macOS-11.2.3-x86_64-i386-64bit
 
+Install required packages using: pip3 install -r requirements.txt
+
 Usage:
     mitmproxy -p <listen port> -s mitmproxy_oauth1.py 
     OR
